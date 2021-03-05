@@ -1,0 +1,21 @@
+@mixin reset {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin fixwh {
+
+    width:100vw;
+    height:100vh;
+}
+@mixin item_center{
+    display:grid;
+    place-items:center;
+}
+
+@mixin f_center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
