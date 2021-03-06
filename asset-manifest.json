@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/weather_report_live_using_hooks_fetch_api/static/css/main.03472f8a.chunk.css",
+    "main.js": "/weather_report_live_using_hooks_fetch_api/static/js/main.036ea283.chunk.js",
+    "main.js.map": "/weather_report_live_using_hooks_fetch_api/static/js/main.036ea283.chunk.js.map",
+    "runtime-main.js": "/weather_report_live_using_hooks_fetch_api/static/js/runtime-main.ef0ccf3b.js",
+    "runtime-main.js.map": "/weather_report_live_using_hooks_fetch_api/static/js/runtime-main.ef0ccf3b.js.map",
+    "static/js/2.cd38531b.chunk.js": "/weather_report_live_using_hooks_fetch_api/static/js/2.cd38531b.chunk.js",
+    "static/js/2.cd38531b.chunk.js.map": "/weather_report_live_using_hooks_fetch_api/static/js/2.cd38531b.chunk.js.map",
+    "index.html": "/weather_report_live_using_hooks_fetch_api/index.html",
+    "static/css/main.03472f8a.chunk.css.map": "/weather_report_live_using_hooks_fetch_api/static/css/main.03472f8a.chunk.css.map",
+    "static/js/2.cd38531b.chunk.js.LICENSE.txt": "/weather_report_live_using_hooks_fetch_api/static/js/2.cd38531b.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/weather_report_live_using_hooks_fetch_api/static/media/bg_image.5dc57a00.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef0ccf3b.js",
+    "static/js/2.cd38531b.chunk.js",
+    "static/css/main.03472f8a.chunk.css",
+    "static/js/main.036ea283.chunk.js"
+  ]
+}
