@@ -12,7 +12,7 @@ const App = () => {
     const [curTime,setCurTime] =useState(null);
     useEffect(() => {
         const getResponse = async () => {
-            const url = `http://api.openweathermap.org/data/2.5/weather?q=${inpSearch}&units=metric&appid=980b81bb9148dc743472d4cd0453cce3`;
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${inpSearch}&units=metric&appid=980b81bb9148dc743472d4cd0453cce3`;
             const res = await fetch(url);
             const resJson = await res.json();
             setCity(resJson.name);
