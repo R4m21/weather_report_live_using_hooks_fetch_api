@@ -9,7 +9,7 @@ const App = () => {
     const url = `http://openweathermap.org/img/wn/${weather[0].icon}@2x.png`;
     const t = [cityObj.dt, cityObj.sys.sunrise, cityObj.sys.sunset];
     const time = t.map(val => new Date(val * 1000).toLocaleTimeString());
-    const [curTime,setCurTime] =useState(null);
+    const [curTime, setCurTime] = useState(null);
     useEffect(() => {
         const getResponse = async () => {
             const url = `https://api.openweathermap.org/data/2.5/weather?q=${inpSearch}&units=metric&appid=980b81bb9148dc743472d4cd0453cce3`;
@@ -24,7 +24,7 @@ const App = () => {
         }
         getResponse();
     }, [inpSearch]);
-    (()=>setInterval(()=>setCurTime(new Date().toLocaleTimeString()),1000))();
+    (() => setInterval(() => setCurTime(new Date().toLocaleTimeString()), 1000))();
     return (
         <>
             {/* searching for location */}
@@ -96,7 +96,7 @@ const App = () => {
                         </div>
                     </div>
                 </div>}
-            {city?<div className="ft">update weather time : {time[0]}</div>:null}
+            {city ? <div className="ft">update weather time : {time[0]}</div> : null}
         </>
     )
 }
